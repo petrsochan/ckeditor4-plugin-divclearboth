@@ -7,6 +7,6 @@ CKEditor plugin allowing to insert a div element with clearboth styling and to s
 2. Into config.js add
 ```js
 config.extraPlugins = 'divclearboth';
-config.extraAllowedContent = 'div style,*id';
+config.extraAllowedContent = 'div style;*id';
 config.fillEmptyBlocks = false;
 ```
